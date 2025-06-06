@@ -6,7 +6,18 @@ font-size: 100px;
 color: white;
 }
 
-p{
+h2 {
+  font-size: 50px;
+  color: white;
+}
+
+
+.bold{
+  font-weight: bold;
+  color: turquoise;
+}
+
+.p{
     font-size: 50px;
     color: white;
 }
@@ -21,4 +32,32 @@ p{
   position: absolute;
   top: 8px;
   left: 16px;
+}
+
+.button {
+  background-color: turquoise; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+p {
+  font-size: 20px;
+  color: black;
+}
+
+.underpicture{
+  color: black;
+}
+
+
+.col{
+  width: 50%;
+  height: 500px;
+  position: relative;
+  float: left;
 }
