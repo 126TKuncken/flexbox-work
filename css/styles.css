@@ -55,9 +55,52 @@ p {
 }
 
 
-.col{
-  width: 50%;
-  height: 500px;
-  position: relative;
-  float: left;
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 40px 0;
+  width: 100%;
 }
+
+.about-text {
+  flex: 1 1 50%;
+  margin-right: 40px;
+}
+
+.about-image {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.thinking {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.walking {
+  max-width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.work{
+  color: black;
+}
+
+.socials {
+  margin-top: 8px;
+  display: flex;
+  gap: 10px;
+}
+
+.social-img {
+  width: 32px;
+  height: 32px;
+}
+
+
